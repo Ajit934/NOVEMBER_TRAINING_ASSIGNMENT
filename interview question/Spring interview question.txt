@@ -1,0 +1,109 @@
+
+                                      Spring and SpringBoot interview question
+                            ============================================================
+  
+Q) What is Spring ?
+A)Spring is a framework to develop standalon and wee based application and its provide some modules to develop the application.
+@)What are the features is provided by spring ?
+A)Spring provided Dependency injection and loose coupling .
+Q)If there is JDBC why Spring JDBC is came and what are the benifities ?
+A)Spring JDBC is the abstraction of plain JDBC like we can say avoid boilerplate code .
+Q)what are the module available in Spring framework?
+A) Spring core,MVC,AOP,Spring JDBC,ORM etc-.
+Q)what is IOC ?
+A)Inversion of control to manage our life cycle  of beans .
+Q)what are the diff b/w java bean and spring bean and pojo ?
+A)Java beans is only plain class like -DTO so we can transfer the data into one layer to other layer 
+Spring beans is nothing but those beans 7is managed by IOC contaioner is called Spring Beans
+Pojo is stands for Plan old java class . 
+Q)what is tight coupling?
+A)Degree of dependency between two components is high is called tight coupling 
+ex-Inheritance
+Q)what is loose coupling ?
+A)Degree of dependency between two components is less is called tight coupling 
+ex-interface model programming
+Q)what is dependency injection  in spring?
+A)Dependency injectionis nothing but to injecting one bean to other bean by using setter injuction and contructor injuction .
+Q)what is traget class ?
+A)A class which is getting and pulling the object from different resources is called target class.
+Q)what is dependent class ?
+A)A class provided the services to other class is called dependent class.
+Q)how we can achieve dependency injection ?
+A) we can achieve dependence injection in 2 way like -setter and constructor injuction .
+Q)what is configuration file and what is the use of it ?
+A)Confuguration file contains confuguration of bean class so that the IOC contaioner will manage our application by taking the help of Configuration file .
+Q)what is spring jdbc ?
+A)Spring JDBC is the abstraction of JDBC.
+Q)what is jdbcTemplete?
+A)Jdbc templete is 
+A)Spring JdbcTemplate is a powerful mechanism to connect to the database and execute SQL queries. It internally uses JDBC api .
+Q)What is SpringBoot?
+A)SpringBoot is a ma
+what is the spring and SpringBoot?
+Q)Explain the need of dev-tools dependency
+A)DevTools when we make changes to Java code or properties file, the application gets updated with new changes.
+ It monitors for changes and automatically restarts the application
+Q)what is spring starter ?
+Q)what are the starter provided by spring boot ?
+what are the featutres available in springboot?
+Q)is there any facilities to change the server dynamically ?
+A)Yes
+Q)is there any facilities to change the server running port number dynamically ?
+Yes,Server.port in application.properties file
+Q)what is properties file?
+A)It contaion some configuiration of beans with key,value paire formt.
+Q)How many way we can configure the properties is spring boot environment ?
+A)2 way like-properties file and YML file
+Q)What is Spring Data?
+A)Spring Data is simple way to develop DAO layer it internally uses Hibernet .
+Q)what is jpa repository and CURD repository ?
+A)JPA repository is the chield interface of CURD Repository and both the interface will provide some common method to doing the operation
+but JPA Repository will support pagination concept .
+Q)what is pagination is spring boot.
+A)if we wont to see multiple record in diff diff page then we can choose Pagination. 
+Q)which repository is provided pagination concept?
+A)JPA Repository
+Q)How you implement DAO layer in your project ?
+A)we are taking the help of JPA Repository interface .
+Q)what is @Repository annotation and when we can use and which layer it is applicable ?
+A)@Repository is applicable in DAO layer and it will commnucate to DB by and it will internally execute the some query . 
+Q)what is entity and what is the use of it ?
+A)entity is ment for to mapping one class to Db with the help of Data jpa.
+Q)what are the annotation uses in entity class ?
+A)@id,@Entity,@Table,@Column
+Q)what is the use of service layer ?
+A)service layer is ment for to maintain some B.logic .
+Q)what is @Service annotation and where it is applicable ?
+A)service annotation ment for to make the class as service layer and it allow to write some b.logic.
+Q)what is @Autowired ?
+A) Autowired annotation is ment for linking to class and creating one class object in side the other class.
+Q)what is @Component ?
+A)Component is nothing but it only creating current class object .
+what is the diff b/w controller and rest controller ?
+what is @Controller and @RestController ?
+what is the use of controller layer ?
+what is @RequestMapping  and where it is applicable?
+what is @GetMapping ?
+what is @PostMapping ?
+what is the @PutMapping and @DeletMapping and @PatchMapping ?
+what is the use of @RequestBody
+what is @ResponseBody ?
+
+What is @PathVariable ?
+what is Model in spring MVC ?
+what is @ModelAttributes ?
+what is the diff b\w Model and @ModelAttributes ?
+what is Dispatcher servlet in spring MVC ?
+What is Spring MVC flow and explain it ?
+
+
+
+
+
+
+
+
+
+
+
+
